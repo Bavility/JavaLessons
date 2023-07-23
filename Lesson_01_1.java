@@ -7,4 +7,4 @@ public class Main {
      System.out.println("У моего жизненного пути есть сердце.");
    }
 }
-// Sergejs Zubakins (Bavility)
+// Sergejs Zubakins (Bavility) 
