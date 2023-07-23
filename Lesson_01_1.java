@@ -1,5 +1,6 @@
 public class Main {
    public static void main(String[] args) {
+      
      System.out.println("Здравствуйте! Меня зовут Сергей");
      System.out.print("Мне ");
      System.out.print(10+18);
