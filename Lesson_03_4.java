@@ -7,7 +7,7 @@ public static void main(String[] args) {
         boolean od = number % 2 != 0;
 
         if (number <= 0) {
-            System.out.println("Что-то пошло не так!"); // Теперь при 0 или -1 выдает ошибку
+            System.out.println("Что-то пошло не так!"); // При 0 или -1 выдает ошибку
             
         } else if (ev) {
             System.out.println("Четное");
