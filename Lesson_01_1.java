@@ -6,6 +6,6 @@ public static void main(String[] args) {
     System.out.print(10+18);
     System.out.println(" лет");
     System.out.println("У моего жизненного пути есть сердце.");
-   }
+}
 }
 // Sergejs Zubakins (Bavility) 
