@@ -5,7 +5,7 @@ public static void main(String[] args) {
     String lastName = "Zubakins";
     String fullName = firstName + lastName;
     
-    System.out.println(fullName);  
-  }
+    System.out.println(fullName); 
+}
 }
 // Sergejs Zubakins (Bavility) 
