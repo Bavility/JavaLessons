@@ -1,7 +1,6 @@
 public class Main {
 public static void main(String[] args) {
 
-//Введите день и месяц своего рождения
         int day = 20;
         int month = 10;
 
