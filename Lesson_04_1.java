@@ -1,6 +1,8 @@
+// Напишите программу, которая использует switch-case, чтобы реализовать простой калькулятор. Программа должна принимать два числа и операцию (+, -, *, /, ^), а затем выполнять эту операцию и выводить результат.
+
 import java.util.Scanner;
 
-public class main {
+public class Main {
 public static void main(String[] args) {
 
 Scanner scanner = new Scanner(System.in);
