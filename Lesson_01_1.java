@@ -1,3 +1,5 @@
+// Задания 1: Напишите программу, которая выводит на экран информацию о вас (или выдуманном персонаже) в три строчки:
+
 public class Main {
 public static void main(String[] args) {
       
@@ -8,4 +10,3 @@ public static void main(String[] args) {
     System.out.println("У моего жизненного пути есть сердце.");
 }
 }
-// Sergejs Zubakins (Bavility) 
