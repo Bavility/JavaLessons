@@ -1,3 +1,5 @@
+// Напишите программу, которая принимает возраст пользователя и выводит возрастную категорию: ребенок (до 12 лет), подросток (13-18 лет), взрослый (19-59 лет), пожилой (60 лет и старше).
+
 public class Main {
 public static void main(String[] args) {
 
@@ -17,4 +19,3 @@ public static void main(String[] args) {
 }
 }
 }
-// Sergejs Zubakins (Bavility) 
