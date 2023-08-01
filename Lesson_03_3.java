@@ -1,3 +1,5 @@
+// Напишите программу, которая определяет знак зодиака, исходя из даты рождения пользователя. Знак зодиака определяется по диапазону дат, поэтому вам потребуется использовать логические операторы для определения правильного знака зодиака.
+
 public class Main {
 public static void main(String[] args) {
 
@@ -107,4 +109,3 @@ public static void main(String[] args) {
     System.out.println("Ваш знак зодиака: " + zodiacSign);
 }
 }
-// Sergejs Zubakins (Bavility) 
