@@ -5,10 +5,15 @@ public static void main(String[] args) {
 
     double num1 = 50;
     double num2 = 40;
-    double num3 = 0;
-    double avg = num1 + num2 + num3;
+    double num3 = 20;
+    
+    double avg = (num1 + num2 + num3) / 3;
   
-    System.out.print("К оплате: " +avg);
-    System.out.print(" Euro");
+    System.out.print("Ответ: " +avg);
 }
 }
+/*
+В данном примере создаются три переменные num1 , num2 и num3 типа double и им присваиваются значения 50, 40 и 20 соответственно. 
+Затем переменная average вычисляет среднее значение этих трех чисел, используя операцию деления на 3. 
+В конце программа выводит значение average с помощью метода println() .
+*/
