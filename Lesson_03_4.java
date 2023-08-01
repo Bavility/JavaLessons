@@ -1,3 +1,5 @@
+// Нечетное или четное: Напишите программу, которая определяет, является ли введенное число четным или нечетным. Используйте операторы "И" и "ИЛИ" для обработки нескольких условий.
+
 public class Main {
 public static void main(String[] args) {
 
@@ -16,4 +18,3 @@ public static void main(String[] args) {
 }
 }
 }
-// Sergejs Zubakins (Bavility) 
