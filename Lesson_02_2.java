@@ -1,3 +1,5 @@
+// Создайте три переменные num1, num2 и num3 типа double и присвойте им любые значения. Затем создайте переменную average и вычислите среднее значение этих трех чисел.
+
 public class Main {
 public static void main(String[] args) {
 
@@ -10,4 +12,3 @@ public static void main(String[] args) {
     System.out.print(" Euro");
 }
 }
-// Sergejs Zubakins (Bavility) 
