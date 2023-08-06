@@ -21,6 +21,7 @@ public static void main(String[] args) {
     case "Привет"-> answer = "Привет";
     case "Пока"-> answer = "До встречи!";
 
+    // Выводим ошибку
     default -> System.err.println(Ошибка!");
 
     }
