@@ -36,7 +36,7 @@ public static void main(String[] args) {
 
     // Выводим ошибку
     } else {
-    System.err.println("Введены неверные данные");
+    System.err.println("Что-то пошло не так!");
 }
 }
 }
