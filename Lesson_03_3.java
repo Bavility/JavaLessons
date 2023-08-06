@@ -3,7 +3,7 @@
 public class Main {
 public static void main(String[] args) {
 
-    int number = 5; 
+    int number = 5; // Замените значение на своё
 
     boolean ev = number % 2 == 0;
     boolean od = number % 2 != 0;
