@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Main {
 public static void main(String[] args) {
 
-Scanner scanner = new Scanner(System.in);
+    // Создаем объект Scanner для чтения ввода с клавиатуры
+    Scanner scanner = new Scanner(System.in);
 
     System.out.print("Введите первое число: ");
     int numberOne = scanner.nextInt();
@@ -21,20 +22,25 @@ Scanner scanner = new Scanner(System.in);
     case "+":
     result = numberOne + numberTwo;
     break;
+
     case "-":
     result = numberOne - numberTwo;
     break;
+
     case "*":
     result = numberOne * numberTwo;
     break;
+
     case "/":
     if (numberTwo != 0) {
     result = numberOne / numberTwo;
     break;
+
     } else {
     System.err.println("Деление на 0");
     break;
     }
+
     default:
     System.err.println("Недопустимая операция");
     break;
@@ -43,18 +49,3 @@ Scanner scanner = new Scanner(System.in);
     if(result != 999) {
     System.out.println("Результат: " + result);
     }
-  
-    //Современная аннотация
-    switch (operation) {
-    case "/" -> {
-    if (numberTwo == 0) {
-    System.err.println("Деление на 0");
-    }
-    else result = numberOne/numberTwo;
-
-    }
-    default -> System.err.println("Ошибка");
-    }
-    System.out.println("Результат: " + result);
-}
-}
