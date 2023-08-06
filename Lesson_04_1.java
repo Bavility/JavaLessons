@@ -41,6 +41,7 @@ public static void main(String[] args) {
     break;
     }
 
+    // Выводим ошибку
     default:
     System.err.println("Недопустимая операция");
     break;
