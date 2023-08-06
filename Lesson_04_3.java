@@ -8,7 +8,8 @@ import java.util.Scanner;
 public class Main {
 public static void main(String[] args) {
 
-Scanner scanner = new Scanner(System.in);
+    // Создаем объект Scanner для чтения ввода с клавиатуры
+    Scanner scanner = new Scanner(System.in);
 
     int num = (int) (Math.random() * 5) + 1;
 
@@ -25,6 +26,6 @@ Scanner scanner = new Scanner(System.in);
     ran = scanner.nextInt();
     }
 
-    System.out.println("Поздравляю, вы угадали правильное число. :)");
+    System.out.println("Поздравляю, вы угадали правильное число.");
 }
 }
