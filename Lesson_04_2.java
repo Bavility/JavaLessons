@@ -5,10 +5,11 @@
 
 import java.util.Scanner;
 
-public class main {
+public class Main {
 public static void main(String[] args) {
 
-Scanner scanner = new Scanner(System.in);
+    // Создаем объект Scanner для чтения ввода с клавиатуры
+    Scanner scanner = new Scanner(System.in);
 
     String greet;
     String answer = "Я вас не понимаю";
