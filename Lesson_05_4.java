@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
-public class other3 {
+public class Main {
 public static void main(String[] args) {
 
-Scanner scanner = new Scanner(System.in);
+    // Создаем объект Scanner для чтения ввода с клавиатуры
+    Scanner scanner = new Scanner(System.in);
 
     System.out.print("Введите первое число: ");
     int num1 = scanner.nextInt();
