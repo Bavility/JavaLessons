@@ -6,8 +6,8 @@
 public class Main {
 public static void main(String[] args) {
 
-    int month = 02; // Замените значение на своё
-    int day = 11; // Замените значение на своё
+    int month = 10; // Замените значение на своё
+    int day = 20; // Замените значение на своё
 
     if ((month == 1 && day >= 20) || (month == 2 && day <= 18)) {
     System.out.println("Ваш знак зодиака - Водолей");
