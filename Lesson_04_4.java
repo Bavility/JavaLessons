@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
-public class main {
+public class Main {
 public static void main(String[] args) {
 
-Scanner scanner = new Scanner(System.in);
+     // Создаем объект Scanner для чтения ввода с клавиатур
+    Scanner scanner = new Scanner(System.in);
 
     int cash;
     int change;
