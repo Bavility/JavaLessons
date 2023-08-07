@@ -18,8 +18,8 @@ public static void main(String[] args) {
     for (int i = lengthOfNumber-1; i >=0; i--){
     System.out.print(numberString.charAt(i));
 
-   // Закрываем объект Scanner
-   input.close();
+    // Закрываем объект Scanner
+    input.close();
 }
 }
 }
