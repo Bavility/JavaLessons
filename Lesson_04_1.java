@@ -41,7 +41,7 @@ public static void main(String[] args) {
     break;
     }
 
-    // Выводим ошибку
+    // Уведомление об ошибке
     default:
     System.err.println("Что-то пошло не так!");
     break;
