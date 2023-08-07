@@ -23,8 +23,9 @@ public static void main(String[] args) {
 
     // Выводим ошибку
     default -> System.err.println("Что-то пошло не так!");
-
     }
+
+    // Выводим результат
     System.out.println(answer);
 
 }
