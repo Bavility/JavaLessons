@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class main {
+public class Main {
 public static void main(String[] args) {
 
     // Создаем объект Scanner для чтения ввода с клавиатуры
@@ -17,6 +17,7 @@ public static void main(String[] args) {
 
     boolean result = (num1 * num1) + (num2 * num2) == (num3 * num3);
 
+    // Выводим результат
     System.out.println("Результат: " + result);
 }
 }
