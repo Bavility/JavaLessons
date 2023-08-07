@@ -8,7 +8,7 @@ public static void main(String[] args) {
     boolean ev = number % 2 == 0;
     boolean od = number % 2 != 0;
     
-    // Выводим ошибку
+    // Уведомление об ошибке
     if (number <= 0) {
     System.err.println("Что-то пошло не так!"); // При 0 или -1 выдает ошибку
     
