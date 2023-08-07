@@ -14,7 +14,8 @@ public static void main(String[] args) {
     int thirdDigit = number % 10;
 
     int result = (int) (Math.pow(firstDigit, 3) + Math.pow(secondDigit, 3) + Math.pow(thirdDigit, 3));
-
+    
+    // Выводим результат
     if (number == result) {
     System.out.println("Число " + number + " является самовлюбленным");
     } else {
