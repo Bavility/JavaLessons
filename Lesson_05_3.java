@@ -13,7 +13,8 @@ public static void main(String[] args) {
     int num2 = scanner.nextInt();
 
     boolean result = num1 % num2 == 0;
-
+    
+    // Выводим результат
     System.out.println("Результат: " + result);
 }
 }
