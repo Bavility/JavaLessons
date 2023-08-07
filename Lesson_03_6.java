@@ -34,7 +34,7 @@ public static void main(String[] args) {
     } else if ((month == 12 && day >= 22) || (month == 1 && day <= 19)) {
     System.out.println("Ваш знак зодиака - Козерог");
 
-    // Выводим ошибку
+    // Уведомление об ошибке
     } else {
     System.err.println("Что-то пошло не так!");
 }
