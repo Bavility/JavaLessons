@@ -45,9 +45,9 @@ public static void main(String[] args) {
     default:
     System.err.println("Что-то пошло не так!");
     break;
+    }
 
     // Выводим результат
-    }
     if(result != 999) {
     System.out.println("Результат: " + result);
-    }
+}
