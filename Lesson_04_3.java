@@ -26,6 +26,7 @@ public static void main(String[] args) {
     ran = scanner.nextInt();
     }
 
+    // Выводим результат
     System.out.println("Поздравляю, вы угадали правильное число.");
 }
 }
