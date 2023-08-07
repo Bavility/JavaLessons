@@ -11,6 +11,7 @@ public static void main(String[] args) {
     System.out.print("Введите число: ");
     int numberInt = scanner.nextInt();
 
+    // Выводим ошибку
     if(numberInt <= 0){
         System.err.println("Число должно быть положительным");
     }
@@ -41,7 +42,8 @@ public static void main(String[] args) {
     result = false;
     break;
     }
-    //TODO Вывод чисел на экран
+
+    // Выводим результат
     }
     if(result) {
     System.out.println(numberInt + " - простое число");
