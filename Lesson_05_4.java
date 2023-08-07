@@ -19,6 +19,8 @@ public static void main(String[] args) {
     boolean ubivam = (num1 > num2) && (num2 > num3);
 
     boolean result = vozrst || ubivam;
+    
+    // Выводим результат
     System.out.println("Результат: " + result);
 }
 }
