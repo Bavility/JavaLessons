@@ -8,7 +8,7 @@ public static void main(String[] args) {
     // Создаем объект Scanner для чтения ввода с клавиатуры
     Scanner scanner = new Scanner(System.in);
 
-    //Загадываем число
+    // Загадываем число
     int pcRandom = (int) (Math.random() * 100) + 1;
 
     // Приветствие
@@ -28,6 +28,7 @@ public static void main(String[] args) {
     System.err.println("Поздравляю! Вы угадали число: " + pcRandom);
     System.err.println("Спасибо за игру! До новых встреч.");
     break;
+    
     }
     } while (true);
 }
