@@ -5,9 +5,11 @@ public static void main(String[] args) {
 
     int count = 10;
 
+    // Выводим результат
     do {
     System.out.print(count+",");
     count--;
+
     } while (count >= 1);
 }
 }
