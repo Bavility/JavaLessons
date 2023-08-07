@@ -11,9 +11,9 @@ public static void main(String[] args) {
     System.out.print("Введите число: ");
     int numberInt = scanner.nextInt();
 
-    // Выводим ошибку
+    // Уведомление об ошибке
     if(numberInt <= 0){
-        System.err.println("Число должно быть положительным");
+    System.err.println("Число должно быть положительным");
     }
     else {
 
