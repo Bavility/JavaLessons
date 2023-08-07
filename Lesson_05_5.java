@@ -14,7 +14,10 @@ public static void main(String[] args) {
     boolean result;
 
     if (numberLength % 2 != 0) {
+    
+    // Уведомление об ошибке
     System.err.println("Проверка невозможна, неподходящее число " + numberString);
+
     } else {//"1234"-->numberString.charAt(0)-->'1'  --->Integer.valueOf("1")-->1
     char firstChar = numberString.charAt(0);
     int numberIntIndex0 = Integer.valueOf(firstChar);
@@ -23,7 +26,8 @@ public static void main(String[] args) {
     int numberIntIndex3 = Integer.valueOf(numberString.charAt(3));
 
     result = (numberIntIndex0 + numberIntIndex1) == (numberIntIndex2 + numberIntIndex3);
-
+    
+    // Выводим результат
     System.out.println(result);
 }
 }
