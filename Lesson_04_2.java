@@ -22,7 +22,7 @@ public static void main(String[] args) {
     case "Пока"-> answer = "До встречи!";
 
     // Выводим ошибку
-    default -> System.err.println(Ошибка!");
+    default -> System.err.println("Что-то пошло не так!");
 
     }
     System.out.println(answer);
