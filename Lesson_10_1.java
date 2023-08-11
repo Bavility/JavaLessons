@@ -8,33 +8,22 @@ public static void main(String[] args) {
     // Создаем объект Scanner для чтения ввода с клавиатуры
     Scanner scanner = new Scanner(System.in);
 
+    int [] salary = new int[]{1200, 1400, 1300, 1000, 1500, 1800}; //объявление и инициализация
+
     System.out.println("Введите размер массива: ");
-    int n = scanner.nextInt();
+    int checkSalary=scanner.nextInt();
+    
+    boolean result = false;
 
-    int[] array = new int[n];
-
-    System.out.println("Введите элементы массива: ");
-    for (int i = 0; i < n; i++) {
-    array[i] = scanner.nextInt();
-    }
-
-    System.out.println("Введите число, которое вы хотите найти в массиве: ");
-    int number = scanner.nextInt();
-
-    boolean con = false;
-
-    for (int i = 0; i < n; i++) {
-    if (array[i] == number) {
-    con = true;
-    break;
+    for (int i = 0; i < salary.length; i++ ){
+    if (checkSalary == salary[i]){
+    result = true;
+    System.out.println(result);
     }
     }
-
+    if(result==false){
     // Выводим результат
-    if (con) {
-    System.out.println("Число " + number + " содержится в массиве.");
-    } else {
-    System.out.println("Число " + number + " не содержится в массиве.");
+    System.out.println(result);
 }
 }
 }
