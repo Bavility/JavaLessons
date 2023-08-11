@@ -11,7 +11,7 @@ public class Main {
 public static void main(String[] args) {
 
     // Создаем объект Scanner для чтения ввода с клавиатуры
-    Scanner scan =new Scanner(System.in);
+    Scanner scan = new Scanner(System.in);
 
     int result=1;
     System.out.println("Введите число: ");
