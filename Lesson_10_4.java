@@ -10,7 +10,8 @@ public static void main(String[] args) {
     for (int i=0; i< array.length; i++) {
     sum += array[i]; 
     }
-
+  
+    // Выводим результат
     System.out.println("Сумма всех элементов массива: " + sum);
 }
 }
