@@ -22,6 +22,7 @@ public static void main(String[] args) {
     }
     }
     if(result==false){
+
     // Выводим результат
     System.out.println(result);
 }
