@@ -11,14 +11,14 @@ public static void main(String[] args) {
   
     for (int i = 0; i < numbers.length - 1; i++) {
     if (numbers[i] >= numbers[i + 1]) {
-      
     
     } else {
     result = true;  
     break;
+    }
+    }
     
-    }
-    }
+    // Выводим результат
     if (result) {
     System.out.println(result);
     } else {
@@ -35,9 +35,10 @@ public static void main(String[] args) {
     {
     resultCheck = false;
     break;
+    }
+    }
     
-    }
-    }
+    // Выводим результат
     System.out.println(resultCheck);
 }
 }
